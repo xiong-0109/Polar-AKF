@@ -1,0 +1,21 @@
+sequence_length: 192
+input_size: 112
+
+polar_angle_bins: 64
+polar_radius_bins: 56
+polar_radius_max: 55.0
+
+encoder_base_channels: 32
+feature_dim: 128
+hidden_dim: 128
+latent_dim: 16
+delta_t: 0.2
+
+q_min: 0.0001
+r_min: 0.0001
+initial_q: 1.0
+initial_r: 1.0
+alpha_q: 0.3
+alpha_r: 0.3
+eps: 0.000001
+
